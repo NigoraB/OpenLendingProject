@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Scholastic Regression Suite">
+<suite name="GoogleSearchSuite">
 
     <parameter name="url" value="https://www.facebook.com"></parameter>
 
 
-    <test name="Login">
+    <test name="Search">
         <classes>
-            <class name="Testcases.Login"></class>
+            <class name="Testcases.Google Search"></class>
         </classes>
     </test>
 
-    <test name="Sign Up">
-        <parameter name="browserName" value="chrome"></parameter>
-        <classes>
-            <class name="Testcases.SignIn"></class>
-        </classes>
-    </test>
+   
 
 
 
