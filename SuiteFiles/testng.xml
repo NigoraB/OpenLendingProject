@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="GoogleSearchSuite">
 
-    <parameter name="url" value="https://www.facebook.com"></parameter>
+    <parameter name="url" value="https://www.google.com"></parameter>
 
 
     <test name="Search">
