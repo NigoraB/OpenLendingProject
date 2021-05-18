@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Scholastic Regression Suite">
+
+    <parameter name="url" value="https://www.facebook.com"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+
+    <test name="Login">
+        <classes>
+            <class name="Testcases.Login"></class>
+        </classes>
+    </test>
+
+    <test name="Sign Up">
+        <classes>
+            <class name="Testcases.SignIn"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Scholastic Regression Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://www.facebook.com"/>
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="Testcases.Login">
+        <methods>
+          <include name="login1"/>
+          <include name="quitDriver"/>
+          <include name="login2"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- Testcases.Login -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="Sign Up(failed)">
+    <classes>
+      <class name="Testcases.SignIn">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="initDriver"/>
+          <include name="signIn2"/>
+          <include name="signIn1"/>
+        </methods>
+      </class> <!-- Testcases.SignIn -->
+    </classes>
+  </test> <!-- Sign Up(failed) -->
+</suite> <!-- Failed suite [Scholastic Regression Suite] -->
